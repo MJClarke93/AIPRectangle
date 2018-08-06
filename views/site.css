@@ -1,0 +1,22 @@
+body {
+    background: darkgrey;
+}
+
+#calc-box {
+    margin: auto;
+    display: block;
+    text-align: center;
+    width: 400px;
+    padding: 2px 6px 10px;
+    background: #b7e2f0;
+    border-radius: 6px;
+}
+
+#calc-form {
+    margin: auto;
+    display: block;
+    width: 200px;
+    padding: 1px 3px 5px;
+    background: azure;
+    border-radius: 6px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rectangles</title>
+    <link rel="stylesheet" type="text/css" href="views/site.css">
+</head>
+<body>
+<div id="calc-box">
+    <h1>Area of Rectangles</h1>
+    <form action="/" method="post">
+        <table id="calc-form">
+            <tr>
+                <td colspan="2">Enter dimensions below:</td>
+            </tr>
+            <tr>
+                <td>Height:</td>
+                <td><input type="text" name="height" size="18" maxlength="9" value="<%= height %>"></td>
+            </tr>
+            <tr>
+                <td>Width:</td>
+                <td><input type="text" name="width" size="18" maxlength="9" value="<%= width %>"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit"></td>
+            </tr>
+        </table>
+    </form>
+    <p><b><%= msg %></b></p>
+</div>
+</body>
+</html>
